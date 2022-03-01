@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+   
+<head>
+    
+    <title>To Do List</title>
+</head>
+   
+<body>
+  
+        <h2>Add Items</h2>
+   
+        <label id="lblsuccess" style="display: none;">
+        </label>
+          
+        <form id="addForm">
+        <input type="text" onkeyup="toggleButton(this, 'submit')"  id="item">
+        <input type="submit"id="submit" value="Submit" disabled >
+        </form>
+   
+        <h3>Tasks</h3>
+   
+        <form id="addForm">
+            <ul class="list-group" id="items"></ul>
+        </form>
+        <script src="app.js"></script>
+</body>
+   
+</html>
