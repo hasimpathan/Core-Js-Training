@@ -44,5 +44,6 @@ function showLogdata() {
   log.innerHTML = string;
 }
 function ClearHistory() {
+    historyData.length=0;
     log.innerHTML="";
   }
