@@ -7,6 +7,7 @@
     <meta name="author" content="Hasim Pathan">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Users</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   
 </head>
 
@@ -14,24 +15,18 @@
 
     <body>
         <div class="container">
-            <button type="button"  id="fetchUserBtn">
+            <button type="button"  id="fetchUserBtn" class="btn btn-success">
                 Fetch Users
             </button>
-            <a href="posts.html">
-                <button type="button" >
-                    Posts Details
-                </button>
-            </a>
-
             <div id="tables">
-                <table >
+                <table class="table">
                     <thead>
                         <tr>
-                            <th scope="col">S.no</th>
-                            <th scope="col">Name</th>
-                            <th scope="col">Email</th>
-                            <th scope="col">Phone</th>
-                            <th scope="col">Website</th>
+                            <th>S.no</th>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Phone</th>
+                            <th>Website</th>
                         </tr>
                     </thead>
                     <tbody id="tbody">

@@ -29,7 +29,7 @@ function addItem(e) {
 
     setTimeout(function () {
       document.getElementById("lblsuccess").style.display = "none";
-    }, 3000);
+    }, 1000);
 
     return false;
   }
@@ -63,6 +63,12 @@ function removeItem(e) {
         "Text deleted successfully";
 
       document.getElementById("lblsuccess").style.display = "block";
+      
+      setTimeout(function () {
+        document.getElementById("lblsuccess").style.display = "none";
+      }, 1000);
+  
+      return false;
     }
   }
   if (e.target.classList.contains("edit")) {
